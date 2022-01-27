@@ -1,0 +1,37 @@
+body {
+    background-color: #303030;
+}
+.row {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.game .row div {
+    border: 3px solid black;
+    background-color: grey;
+    height: 150px;
+    width: 150px;
+}
+.toDisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+}
+.informations {
+    width: 150px;
+    height: 220px;
+    padding: 10px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+.informations p {
+    height: 50px;
+}
+.restart {
+    width: 150px;
+    height: 20px;
+
+}
